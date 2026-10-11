@@ -9,7 +9,6 @@
     "deploy": "vercel"
   },
   "dependencies": {
-    "@hono/vercel-edge": "^1.0.3",
     "hono": "^4.6.0"
   },
   "devDependencies": {
