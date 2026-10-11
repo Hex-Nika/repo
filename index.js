@@ -1,6 +1,5 @@
 import { Hono } from 'hono';
 import { cors } from 'hono/cors';
-import { handle } from '@hono/vercel-edge'; // Import the Vercel Edge handler
 
 export const config = {
   runtime: 'edge', // Tell Vercel to run this on the Edge network
