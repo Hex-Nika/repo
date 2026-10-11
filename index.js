@@ -11,7 +11,7 @@ app.use(
 	'*',
 	cors({
 		origin: '*',
-		allowHeaders: '*',
+		allowHeaders: ['*'],
 		allowMethods: ['GET', 'OPTIONS'],
 		maxAge: 600,
 	})
